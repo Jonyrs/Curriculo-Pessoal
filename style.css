@@ -1,3 +1,80 @@
-body {
-    background-color: black;
-}
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+
+ body{
+    font-family: sans-serif;
+    background-color: rgb(212, 222, 218);
+ }
+
+ /* HEADER */
+ 
+ header{
+    text-align: center;
+    padding: 60px 0px 0px;
+ }
+
+
+
+ .logo{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 2px solid rgb(99, 97, 97);
+ }
+
+ header h1 {
+    padding: 5px 0px 0px;
+    text-transform: uppercase;
+    font-size: 25px;
+    color: rgb(82, 80, 80);
+ }
+
+ header h2 {
+    font-weight: 200;
+    font-style: italic;
+    font-size: 12px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+ }
+
+i {
+    font-size: 30px;
+    text-decoration: none;
+    color: rgb(99, 97, 97);
+    padding: 10px 20px;
+ }
+
+ /* ABOUT ME */
+
+ .about {
+    padding: 40px 200px 0px 100px;
+ }
+
+ .about p{
+    padding-top: 30px;
+ }
+
+ /* CONTAINER 1*/
+
+ .container1{
+    display: flex;
+    padding: 100px;
+ }
+
+ .experience {
+    width: 50%;
+    height: 100px;
+    border-right: 2px solid gray;
+    text-align: center;
+    text-transform: uppercase;
+ }
+
+ .education{
+    width: 50%;
+    height: 100px;
+    text-align: center;
+    text-transform: uppercase;
+ }
